@@ -1,10 +1,10 @@
-package com.codegym.cms.model;
+package com.codegym.cms.repository;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "customers")
-public class Customer {
+public class Customer  {
 
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
